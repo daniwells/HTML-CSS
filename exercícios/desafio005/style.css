@@ -23,10 +23,12 @@
 body {
     font-family: var(--font_padrao);
     margin: 0px;
+    width: 100%;
+    height: 100%;
 }
 
 header {
-    min-width: 480px;
+    min-width: 540px;
     background-color: black;
     color: white;
     text-align: center;
