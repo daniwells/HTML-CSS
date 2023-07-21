@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Testing form</h1>
+    <form action="index.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required minlength="4" maxlength="20" size="10" placeholder="Name" autocomplete="username" >
+        </p>
+
+        <p><label for="password">Password:</label>
+            
+            <input type="password" name="password" id="password" required minlength="8" maxlength="16" size="10" placeholder="Password" autocomplete="current-password" >
+            
+        </p>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clean">
+
+    </form>
+
+</body>
+</html>
