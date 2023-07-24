@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="est">State</label>
+            <select name="state" id="state">
+                <optgroup label="Região Sudeste" >
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                </oppgroup>
+
+                <optgroup label="Região Nordeste" >
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="CE">Ceará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PI">Piauí</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                </optgroup>
+
+                <optgroup label="Região Cetro-Oeste" >
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value=MS"">Mato Grosso do Sul</option>
+                </optgroup>
+
+                <optgroup label="Região Sul">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                </optgroup>
+
+                <optgroup label="Região Norte" >
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="AP">Amapá</option>
+                    <option value="RR">Roraima</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AC">Acre</option>
+                    <option value="TO" selected>Tocantins</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+
+        <p>
+            <label for="prof">Profession</label>
+            <input type="text" name="prof" id="prof" list="lprof" >
+            <datalist id="lprof">
+                <option value="ADM">Administrator</option>
+                <option value="MED">Doctor</option>
+                <option value="PROF">Teacher</option>
+                <option value="DEV">Developer</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">Message:</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="clean">
+        </p>
+
+    </form>
+</body>
+</html>
