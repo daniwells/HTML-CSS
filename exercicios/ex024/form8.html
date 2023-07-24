@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="get">
+
+        <p>
+            <label for="n1">Number 1:</label>
+            <input type="number" name="n1" id="n1" max="50" min="0" required oninput="sum.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+
+        <p>
+            <label for="n2">Number 2:</label>
+            <input type="number" name="n2" id="n2" max="50" min="0" required oninput="sum.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+
+        <p>
+            <label for="sum">Sum:</label>
+            <output name="sum" id="sum"></output>
+        </p>
+
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clean">
+        </p>
+
+    </form>
+</body>
+</html>

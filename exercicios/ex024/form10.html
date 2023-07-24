@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+
+        <p>
+            <label for="year">In which year are you were born</label>
+            <input type="number" name="year" id="year" min="1900" max="2023" value="2000" oninput="calcIdade()">
+        </p>
+
+        <p>
+            <label for="age">Your age is:</label>
+            <output id="age">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clean">
+        </p>
+
+        <script>
+            function calcIdade() {
+                let atual = new Date().getFullYear()
+                age.innerHTML = Number(atual) - Number(year.value)
+            }
+                
+        </script>
+    </form>
+</body>
+</html>
