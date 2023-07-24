@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testing Form</h1>
+    <form action="index.php" method="get" autocomplete="on">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required maxlength="35" placeholder="Complet Name" autocomplete="name">
+        </p>
+
+        <p>
+            <label for="average">Average</label>
+            <input type="number" name="average" id="average" required placeholder="0 to 10" min="0" max="10" step="0.1">
+        </p>
+
+        <p>
+            <label for="period">School Period</label>
+            <input type="month" required name="period" id="period">
+        </p>
+
+        <p>
+            <label for="day">Day of Exam:</label>
+            <input type="date" id="day" name="day" required>
+        </p>
+
+        <p>
+            <label for="time">Time of Exam</label>
+            <input type="time" id="time" name="time" required>
+        </p>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clean">
+    </form>
+</body>
+</html>
