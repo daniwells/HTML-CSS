@@ -1,0 +1,73 @@
+@media only print{
+    #printer {
+        display: block;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    body {
+        background-image: url('../imgs/back-print.jpg');
+        font-family: 'Courier New', Courier, monospace;
+       
+    }
+    
+    h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'This print was made in china';
+        text-decoration: overline;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #tablet {
+        display: block;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    body {
+        background-image: url('../imgs/back-tablet.jpg');
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1720px){
+    #desktop {
+        display: block;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    body {
+        background-image: url('../imgs/back-pc.jpg');
+    }
+
+}
+
+@media only screen and (min-width: 1721px){
+    #tv {
+        display: block;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    body {
+        background-image: url('../imgs/back-tv.jpg');
+    }
+}
