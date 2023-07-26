@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -44,7 +44,7 @@ form {
     text-align: left;
     padding: 10px;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 17px;
 }
 
 .div_input {
@@ -59,12 +59,16 @@ form {
 
 input {
     display: inline;
-    background-color: #94CFCD;
+    background-color: #ebd2c6;
     border: none;
     padding: 10px;
     font-size: 15px;
     border-radius: 10px;
     width: 70%;
+}
+
+input::placeholder {
+    color: #572b0fa6;
 }
 
 h1 {
@@ -110,18 +114,25 @@ a {
 }
 
 #log1 {
-    background-color: #57b1ae;
+    background-color: #9F6243;
     border: none;
     color: white;
 }
 
-#log2 {
-    background-color: white;
-    border: 1px solid #57b1ae;
-    color: #3a796f;
+#log1:hover {
+    background-color: #703412;
+    cursor: pointer;
 }
 
-#log1 {
-    
+#log2 {
+    background-color: white;
+    border: 1px solid #90512E;
+    color: #572a0f;
 }
+
+#log2:hover {
+    background-color: #cf9679;
+    cursor: pointer;
+}
+
 
