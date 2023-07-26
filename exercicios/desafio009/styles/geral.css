@@ -26,6 +26,10 @@ main {
     left: 50%;
 
     transform: translate(-50%, -50%);
+
+    border-radius: 15px;
+    border: 2px solid #ad5e309d;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.219);
 }
 
 #img{

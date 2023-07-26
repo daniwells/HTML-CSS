@@ -1,0 +1,52 @@
+@media only screen and (min-width: 768px){
+    body{
+        background-image: linear-gradient(to bottom, #5E3283, #cf9679);
+    }
+    
+    main {
+
+        display: flex;
+        width: 80%;
+        height: 31%;
+        flex-direction: row;
+        max-width: none;
+    }
+    
+    #img{
+        background-image: url('../imgs/imagem1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        max-width: 200px;
+        height: 100%;
+
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    form {
+        border-radius: 0px 15px 15px 0px;
+        width: 100%;
+    }
+
+    .div_input {
+        position: relative;
+        margin: auto;
+        background-color: #5F2C82;
+        padding: 3px;
+        margin-top: 5px;
+        text-align: right;
+        border-radius: 10px;
+    }
+    
+    input {
+        width: 80%;
+    }
+
+    .span_icons {
+        width: 15%;
+    }
+    
+    i.material-icons {
+        font-size: 250%;
+    }
+}
