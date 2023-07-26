@@ -1,0 +1,127 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #5F2C82;
+    /*background-image: linear-gradient(to bottom, #5F2C82, #4B979B);*/
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    position: absolute;
+    max-width: 300px;
+    border-radius: 10px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#img{
+    background-image: url('../imgs/imagem1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+form {
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.div_input {
+    position: relative;
+    margin: auto;
+    background-color: #5F2C82;
+    padding: 3px;
+    margin-top: 5px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+input {
+    display: inline;
+    background-color: #94CFCD;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.span_icons {
+    position: absolute;
+    display: block;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    top: 15%;
+}
+
+i.material-icons {
+    font-size: 35px;
+    color: white;
+}
+
+a {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+
+#div_log {
+    margin-bottom: 20px;
+}
+
+.log-in {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#log1 {
+    background-color: #57b1ae;
+    border: none;
+    color: white;
+}
+
+#log2 {
+    background-color: white;
+    border: 1px solid #57b1ae;
+    color: #3a796f;
+}
+
+#log1 {
+    
+}
+
