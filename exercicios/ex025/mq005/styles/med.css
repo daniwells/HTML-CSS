@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px){
+    
+
+    li {
+        display: inline;  
+    }
+
+    button {
+        display: inline;
+        width: auto;
+        height: none    ;
+    }
+
+    #icon {
+        display: none;
+    }
+
+    #menu {
+        display: inline;    
+    }
+
+    ul {
+        margin-top: 15px
+    }
+}
