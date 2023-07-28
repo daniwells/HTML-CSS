@@ -1,10 +1,9 @@
-@media only screen and (min-width: 768px){
+@media screen and (min-width: 768px){
     body{
         background-image: linear-gradient(to bottom, #5E3283, #cf9679);
     }
     
     main {
-
         display: flex;
         width: 80%;
         height: 31%;
@@ -17,7 +16,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        max-width: 200px;
+        width: 45%;
         height: 100%;
 
         border-radius: 15px 0px 0px 15px;
@@ -28,16 +27,6 @@
         width: 100%;
     }
 
-    .div_input {
-        position: relative;
-        margin: auto;
-        background-color: #5F2C82;
-        padding: 3px;
-        margin-top: 5px;
-        text-align: right;
-        border-radius: 10px;
-    }
-    
     input {
         width: 80%;
     }
@@ -48,5 +37,35 @@
     
     i.material-icons {
         font-size: 250%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    main {
+        max-width: 900px;
+        height: 36%;
+        max-height: 400px;
+        flex-direction: row-reverse;
+        text-align: left;
+        align-items: left;
+    }
+    #img {
+        width: 50%;
+        border-radius: 0px 15px 15px 0px;
+    }
+    form {
+        width: 50%;
+        border-radius: 15px 0px 0px 15px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #div_input1 {
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 31px;
+        margin-bottom: 15px;
     }
 }

@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="styles/geral.css" media="all">
     <link rel="stylesheet" href="styles/med.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     <title>Projeto Login</title>
 </head>
 <body>
     <section>
         <main>
             <div id="img"></div>
-            <form action="index.php" method="post">
+            <form action="index.php" method="post" autocomplete="on">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
-                <div class="div_input"><span class="span_icons" ><i class="material-icons">person</i></span><input type="email" name="password" id="password" placeholder="seu e-mail"></div>
-                <div class="div_input"><span class="span_icons" ><i class="material-icons">vpn_key</i></span><input type="password" name="password" id="password" placeholder="sua-senha">
+                <div class="div_input" id="div_input1" ><span class="span_icons" ><i class="material-icons">person</i></span><input type="email" name="password" id="password" placeholder="seu e-mail" autocomplete="email"></div>
+                <div class="div_input"><span class="span_icons" ><i class="material-icons">vpn_key</i></span><input type="password" name="password" id="password" placeholder="sua-senha" maxlength="12" minlength="6" autocomplete="current-password">
                 </div>
                 <div id="div_log">
                     <a href=""><button class="log-in" id="log1">Entrar</button></a>
